@@ -79,7 +79,7 @@ It is designed as a **real-world-like microservice** to demonstrate DevOps skill
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/your-username/bookreview-microservice.git
+git clone https://github.com/7Chethan007/bookreview-microservice.git
 cd bookreview-microservice
 ```
 
@@ -250,7 +250,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 ## 13. Contact
-- **Author:** Your Name
-- **Email:** your.email@example.com
-- **GitHub:** https://github.com/your-username
-- **LinkedIn:** https://linkedin.com/in/your-profile
+- **Author:** 7Chethan007
+- **Email:** mnchethan9900@gmail.com
+- **GitHub:** https://github.com/7Chethan007
+- **Repository:** https://github.com/7Chethan007/bookreview-microservice
