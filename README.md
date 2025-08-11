@@ -1,5 +1,10 @@
 # 📚 BookReview Microservice
 
+[![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/7Chethan007/bookreview-microservice)
+[![Flask](https://img.shields.io/badge/Flask-2.3.2-blue.svg)](https://flask.palletsprojects.com/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Testing](https://img.shields.io/badge/Postman%20Testing-Complete-success.svg)](https://www.postman.com/)
+
 ## 1. Project Introduction
 The **BookReview Microservice** is a lightweight Flask-based REST API that manages book reviews and ratings for an online bookstore.  
 It is designed as a **real-world-like microservice** to demonstrate DevOps skills, including CI/CD pipelines, Dockerization, Jenkins automation, and AWS deployment.
@@ -122,24 +127,31 @@ The API will be available at `http://127.0.0.1:5000`
 
 ---
 
-## 6. Testing the API
+## 6. Testing the API ✅
 
-### **Using Postman**
-1. Open Postman
-2. Create a new collection called "BookReview API"
-3. Add the following requests:
+### **Using Postman (Completed)**
+✅ **Collection Created:** "BookReview API"  
+✅ **All Endpoints Tested:** Welcome, Reviews, Status  
+✅ **Screenshots Captured:** Available in `docs/screenshots/`
 
-**Request 1: Welcome Endpoint**
+**Collection Setup:**
+1. ✅ Created new collection called "BookReview API"
+2. ✅ Added the following requests:
+
+**Request 1: Welcome Endpoint** ✅
 - Method: `GET`
 - URL: `http://127.0.0.1:5000/`
+- Status: **TESTED SUCCESSFULLY**
 
-**Request 2: Get Reviews**
+**Request 2: Get Reviews** ✅
 - Method: `GET`
 - URL: `http://127.0.0.1:5000/reviews`
+- Status: **TESTED SUCCESSFULLY**
 
-**Request 3: Health Check**
+**Request 3: Health Check** ✅
 - Method: `GET`
 - URL: `http://127.0.0.1:5000/status`
+- Status: **TESTED SUCCESSFULLY**
 
 ### **Using curl**
 ```bash
@@ -222,16 +234,28 @@ bookreview-microservice/
 ## 10. Screenshots
 
 ### **Local Development**
-![Local Run](docs/screenshots/local-run.png)
+![Local Flask App Running](docs/screenshots/local-run.png)
+*Flask application running successfully on localhost:5000*
 
-### **CI Pipeline**
-![CI Pipeline](docs/screenshots/ci-pipeline.png)
+### **Postman API Testing**
 
-### **Jenkins Output**
-![Jenkins Output](docs/screenshots/jenkins-output.png)
+**Welcome Endpoint Response:**
+![Welcome Endpoint](docs/screenshots/postman-welcome-endpoint.png)
+*GET / endpoint returning welcome message*
 
-### **AWS EC2 Deployment**
-![EC2 Output](docs/screenshots/ec2-output.png)
+**Reviews Endpoint Response:**
+![Reviews Endpoint](docs/screenshots/postman-reviews-endpoint.png)
+*GET /reviews endpoint returning book reviews data*
+
+**Status/Health Check Response:**
+![Status Endpoint](docs/screenshots/postman-status-endpoint.png)
+*GET /status endpoint returning health status and uptime*
+
+### **Testing Results Summary**
+✅ All endpoints tested successfully with Postman  
+✅ Flask application runs without errors  
+✅ JSON responses match expected format  
+✅ Health check endpoint shows proper uptime tracking
 
 ---
 
