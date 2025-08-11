@@ -270,11 +270,3 @@ bookreview-microservice/
 
 ## 12. License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 13. Contact
-- **Author:** 7Chethan007
-- **Email:** mnchethan9900@gmail.com
-- **GitHub:** https://github.com/7Chethan007
-- **Repository:** https://github.com/7Chethan007/bookreview-microservice
